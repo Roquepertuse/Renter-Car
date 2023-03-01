@@ -28,8 +28,8 @@
         width: 50%;
     }
 }
-
-/*Phone*/
+/*-------------------------------------
+Phone*/
 @media (max-width: 469px) {
     #navbar_bottom {
         width: 95%;

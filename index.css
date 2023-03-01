@@ -1,3 +1,4 @@
+/*initial*/
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,43 @@ header {
 h1 {
     font-size: 4.8vmin;
 }
+/*initial fin*/
 /*Header*/
+
+/*Menu Rideau*/
+#deroulant {
+    text-align: start;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+ul {
+    width: 100%;
+    font-size: 1.5vmin;
+    list-style: none;
+    position: relative;
+}
+a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+li {
+    background-color: #f9f9f9;
+    top: 100%;
+    display: none;
+    width: 100%;
+}
+
+li {
+    display: bock;
+    padding: 1.5vh;
+}
+ul:hover > li {
+    display: block;
+}
+/*Titre*/
 #titleb {
     font-size: 2.2vmin;
 }
@@ -22,6 +59,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
 }
+/*Barre de recherche*/
 #navbar_bottom {
     background-color: rgba(256, 256, 256, 0.8);
     width: 60%;
@@ -48,7 +86,7 @@ h1 {
     padding: 5%;
     border: 0; 
 }
-
+/*header Fin*/
 /*Main*/
 #choix {
     background: linear-gradient(rgba(255, 255, 255, 0.948),rgba(225, 225, 225, 0.9));
@@ -63,8 +101,8 @@ h3 {
     font-size: 3vmin;
 }
 .arrow {
-   width: 8%;
-   height: 8%; 
+    width: 8%;
+    height: 8%; 
 }
 .description {
     font-size: 1.38vmin;
@@ -103,7 +141,6 @@ h3 {
     margin: 4vh 0;
     margin-left: 10%;
 }
-
 .buy {
     background: linear-gradient(rgba(93, 224, 60, 0.8),rgba(30, 144, 2, 0.8));
     filter: drop-shadow(0px 2px 2px black);
@@ -113,7 +150,7 @@ h3 {
     border-radius: 5px;
     border: 0;
 }
-
+/*main fin*/
 
 
 /*Footer*/
@@ -130,57 +167,4 @@ footer {
     margin-left: 3%;
     font-size: 2vmin;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-#deroulant {
-    text-align: start;
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
-ul {
-    width: 100%;
-    font-size: 1.5vmin;
-    list-style: none;
-    position: relative;
-}
-a {
-    display: block;
-    color: #000000;
-    text-decoration: none;
-}
-li {
-    background-color: #f9f9f9;
-    top: 100%;
-    display: none;
-    width: 100%;
-}
-
-li {
-    display: bock;
-    padding: 1.5vh;
-}
-ul:hover > li {
-    display: block;
-}
-
-
-
-
-
-div {
-    border: solid red;
-    
-}
+/*Footer fin*/
