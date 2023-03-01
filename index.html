@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Renter-car</title>
+</head>
+<body>
+    <section>
+        <header>
+            <div id="deroulant">
+                    <ul>
+                            <li><a href="#">Louer une voiture</a></li>
+                            <li><a href="#">Louer un utilitaire</a></li>
+                            <li><a href="#">Réserver un chauffeur</a></li>
+                            <li><a href="#">Découvrez nos agences</a></li>
+                            <li><a href="#">Mon Compte</a></li>
+                            <li><a href="#">Contact</a></li>
+                    </ul>
+            </div>
+            <div id="navbar">
+                <div id="navbar_top">
+                    <h1>Bienvenue à bord</h1>
+                    <p id="titleb">Location de voiture 24h/24 et 7j/7</p>
+                </div>
+                <div id="navbar_bottom">
+                    <div id="bottom_left">
+                        <select name="adress" class="search">
+                            <option value="">Adresse de départ</option>
+                            <option value="">Adresse d'arrivée</option>
+                        </select> <br>
+                        <input class="search" type="datetime-local"> <br>
+                        <input class="search"   type="datetime-local"> 
+                    </div>
+                    <div id="bottom_right">
+                        <button>Valider ma recherche</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div>
+            <div class="car_menu">
+                <div id="haut">
+                    <p id="result"><strong>7 résultats</strong></p>
+                    <select name="choix" id="choix">
+                        <option value="">Prix croissant</option>
+                        <option value="">Prix décroissant</option>
+                    </select>
+                </div>
+                <div class="car">
+                    <div class="car_pict">
+                        <img class="buttom_left arrow" src="./img/button.png" alt="">
+                        <img class="carp" src="./img/voiture1.png" alt="">
+                        <img class="arrow" src="./img/button.png" alt="">
+                    </div>
+                    <div class="car_info">
+                        <h3 class="name">Peugeot 208</h3>
+                        <p class="description">Diesel,5 portes,GPS,AutoRadio, forfait 1000 km (0.5/km supplémentaire).</p>
+                        <p class="description">999€-Agence de Paris</p>
+                        <button class="buy">Réserver et Payer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car_menu">
+                <div class="car">
+                    <div class="car_pict">
+                        <img class="buttom_left arrow" src="./img/button.png" alt="">
+                        <img class="carp" src="./img/voiture2.png" alt="">
+                        <img class="arrow" src="./img/button.png" alt="">
+                    </div>
+                    <div class="car_info">
+                        <h3 class="name">Ford Focus</h3>
+                        <p class="description">Diesel,5 portes,GPS,AutoRadio, forfait 1000 km (0.5/km supplémentaire).</p>
+                        <p class="description">999€</p>
+                        <button class="buy">Réserver et Payer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car_menu">
+                <div class="car">
+                    <div class="car_pict">
+                        <img class="buttom_left arrow" src="./img/button.png" alt="">
+                        <img class="carp" src="./img/voiture3.png" alt="">
+                        <img class="arrow" src="./img/button.png" alt="">
+                    </div>
+                    <div class="car_info">
+                        <h3 class="name">Audi A1</h3>
+                        <p class="description">Diesel,5 portes,GPS,AutoRadio, forfait 1000 km (0.55/km supplémentaire).</p>
+                        <p class="description">1100€-Agence de Paris</p>
+                        <button class="buy">Réserver et Payer</button>
+                    </div>
+                </div>
+            </div>
+            <div class="car_menu">
+                <div class="car">
+                    <div class="car_pict">
+                        <img class="buttom_left arrow" src="./img/button.png" alt="">
+                        <img class="carp" src="./img/voiture4.png" alt="">
+                        <img class="arrow" src="./img/button.png" alt="">
+                    </div>
+                    <div class="car_info">
+                        <h3 class="name">Opel Mokka</h3>
+                        <p class="description">Diesel,5 portes,GPS,AutoRadio, forfait 1000 km (0.5/km supplémentaire).</p>
+                        <p class="description">1150€-Agence de Paris</p>
+                        <button class="buy">Réserver et Payer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <img id="agence" src="./img/agence.jpg" alt="">
+            <div id="coord">
+                <p>Notre Agence de <strong>Paris</strong></p>
+                <p>300 boulevard de vaugirard,75015,Paris</p>
+                <p>Ouvert 7j/7 de 09h à 13h et de 14h à 20h</p>
+                <p>01 49 78 21 33</p>
+                <p>contact@vtc.com</p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
+

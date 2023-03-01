@@ -1,0 +1,51 @@
+/*Tablette*/
+@media (max-width: 788px) { 
+    #navbar_bottom {
+        width: 80%;
+        display: unset;
+    }
+    #bottom_left , #bottom_right {
+        width: 100%;
+    }
+    #bottom_right > button{
+        height: 0vh;
+        padding: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .name , .description {
+        display: none;
+    }
+    .buy {
+        float: right;
+        padding: 4% 6%;
+    }
+    .car_menu {
+        width: 90%;
+    }
+    .car_pict , .car_info {
+        width: 50%;
+    }
+}
+
+/*Phone*/
+@media (max-width: 469px) {
+    #navbar_bottom {
+        width: 95%;
+        margin-bottom: 15vh;
+    }
+    #bottom_left {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .search {
+        width: 95%;
+        margin: 0.5vh 0;
+    }
+}
+
+
+
+

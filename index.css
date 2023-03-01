@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: aliceblue;
+    text-align: center;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    height: 65vh;
+}
+h1 {
+    font-size: 4.8vmin;
+}
+/*Header*/
+#titleb {
+    font-size: 2.2vmin;
+}
+#navbar {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#navbar_bottom {
+    background-color: rgba(256, 256, 256, 0.8);
+    width: 60%;
+    margin: 4% auto;
+    display: flex;
+    align-items: center;
+}
+#bottom_left {
+    display: flex;
+    width: 70%;
+}
+.search {
+    width: 30%;
+    margin: 0.5vh 5% 0.5vh 1%;
+}
+#bottom_right {
+    width: 30%;
+}
+#bottom_right > button {
+    background-color: rgba(0, 128, 0, 0.5);
+    color: aliceblue;
+    font-size: 2vmin;
+    width: 100%;
+    padding: 5%;
+    border: 0; 
+}
+
+/*Main*/
+#choix {
+    background: linear-gradient(rgba(255, 255, 255, 0.948),rgba(225, 225, 225, 0.9));
+    filter: drop-shadow(0px 0.7px 0.7px black);
+    text-align: center;
+    width: 20%;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1.5vmin;
+}
+h3 {
+    font-size: 3vmin;
+}
+.arrow {
+   width: 8%;
+   height: 8%; 
+}
+.description {
+    font-size: 1.38vmin;
+    padding: 1.5% 0;
+}
+.car_menu {
+    width: 60%;
+    margin: auto;
+    padding: 1.2% 0 1.4% 0;
+    border-bottom: 0.05vh solid grey;
+}
+#haut {
+    display:flex;
+    justify-content: space-between;
+}
+#result {
+    font-size: 3vmin;
+}
+.car {
+    display: flex;
+    align-items: center;
+}
+.car_pict {
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+.carp {
+    width: 100%;
+}
+.buttom_left {
+    rotate: 180deg;
+}
+.car_info {
+    width: 65%;
+    margin: 4vh 0;
+    margin-left: 10%;
+}
+
+.buy {
+    background: linear-gradient(rgba(93, 224, 60, 0.8),rgba(30, 144, 2, 0.8));
+    filter: drop-shadow(0px 2px 2px black);
+    font-size: 1.5vmin;
+    color: aliceblue;
+    padding: 1.5%;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+#agence{
+    width: 10%;
+}
+#coord {
+    margin-left: 3%;
+    font-size: 2vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#deroulant {
+    text-align: start;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+ul {
+    width: 100%;
+    font-size: 1.5vmin;
+    list-style: none;
+    position: relative;
+}
+a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+li {
+    background-color: #f9f9f9;
+    top: 100%;
+    display: none;
+    width: 100%;
+}
+
+li {
+    display: bock;
+    padding: 1.5vh;
+}
+ul:hover > li {
+    display: block;
+}
+
+
+
+
+
+div {
+    border: solid red;
+    
+}
