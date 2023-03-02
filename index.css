@@ -24,11 +24,25 @@ h1 {
     display: flex;
     justify-content: end;
 }
+#der_bt {
+    width: 4vh;
+    height: 4vh;
+    margin: 1vh;
+    background-color: unset;
+    border: solid white 1px;
+    border-radius: 6px;
+}
+#der_bt_img {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
 ul {
-    width: 100%;
+    float:right;
+    width: 100vw;
     font-size: 1.5vmin;
+    text-align: start;
     list-style: none;
-    position: relative;
 }
 a {
     display: block;
@@ -39,15 +53,16 @@ li {
     background-color: #f9f9f9;
     top: 100%;
     display: none;
-    width: 100%;
 }
-
 li {
-    display: bock;
-    padding: 1.5vh;
+    padding: 1.5vh 4.5vh;
 }
-ul:hover > li {
+#der_bt:hover >ul  li{
+    color: red;
     display: block;
+}
+#der_bt:hover {
+    background-color: white;
 }
 /*Titre*/
 #titleb {
