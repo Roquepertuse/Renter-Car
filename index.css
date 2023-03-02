@@ -58,7 +58,6 @@ li {
     padding: 1.5vh 4.5vh;
 }
 #der_bt:hover >ul  li{
-    color: red;
     display: block;
 }
 #der_bt:hover {
@@ -88,6 +87,7 @@ li {
 }
 .search {
     width: 30%;
+    padding: 0.8vh;
     margin: 0.5vh 5% 0.5vh 1%;
 }
 #bottom_right {
