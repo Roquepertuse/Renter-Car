@@ -88,6 +88,7 @@ li {
 }
 .search {
     width: 30%;
+    font-size: 1.5vmin;
     padding: 0.8vh;
     margin: 0.5vh 5% 0.5vh 1%;
 }
